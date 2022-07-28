@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: "DM Sans", sans-serif;
+  margin: 4rem auto;
+  padding: 0rem 3rem 3rem;
+  max-width: 300px;
+  min-height: 500px;
+  background: #ff6666;
+  color: #fff;
+  box-shadow: 4px 2px 15px 3px #000000;
+  border-radius: 48px;
+  position: relative;
+}
+.track-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: none;
+}
+.strack-btn {
+  background-color: hsla(0, 0%, 100%, 0.5);
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.container-header {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.header {
+  text-align: center;
+  height: 16px;
+  line-height: 16px;
+  font-size: "1rem";
+}
